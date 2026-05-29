@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>LBB Cendekia - Bimbingan Belajar Yogyakarta</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+<button id="tm-back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar navbar-expand-lg tm-navbar sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#tm-hero">LBB<span>Cendekia</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#tmNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="tmNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#tm-services">Layanan</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tm-courses">Program</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tm-team">Tentor</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tm-video">Video</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tm-events">Jadwal</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tm-contact">Kontak</a></li>
+      </ul>
+      <span id="userInfo" class="nav-user-info"></span>
+      <div id="authArea">
+        <a href="login.html" class="nav-cta-btn ms-2">Login</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section id="tm-hero">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 hero-text-col mb-5 mb-lg-0">
+        <div class="badge-since">✦ BERDIRI SEJAK 2016 ✦</div>
+        <h6>Bimbingan Belajar Klasikal & Privat – Yogyakarta</h6>
+        <h2>Bersama LBB Cendekia,<br>Raih Prestasi Terbaikmu!</h2>
+        <p>Lembaga Bimbingan Belajar Cendekia hadir untuk mendidik insan cerdas, berkarakter, dan bertaqwa. Melayani siswa SD, SMP, dan SMA dengan program klasikal dan privat di Kotagede & Ketandan, Yogyakarta.</p>
+        <a href="#tm-courses" class="tm-btn-primary">Lihat Program Belajar</a>
+        <a href="#tm-about" class="tm-btn-secondary">Tentang Kami</a>
+      </div>
+      <div class="col-lg-6">
+        <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&h=400&fit=crop&auto=format" alt="Siswa belajar di LBB Cendekia" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section id="tm-services" class="tm-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="tm-section-title-box">
+          <p>Layanan Kami</p>
+          <h2>Kenapa Pilih <span>LBB Cendekia?</span></h2>
+          <div class="tm-divider center"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="tm-service-item">
+          <img src="https://themewagon.github.io/scholar/assets/images/service-01.png" alt="Modul Lengkap" />
+          <h4>Modul Cerdik Lengkap</h4>
+          <p>Tersedia Modul Cerdik TKA/TKAD yang lengkap dan terupdate, dirancang khusus untuk membantu siswa menguasai konsep dan cara praktis mengerjakan soal.</p>
+          <a href="#tm-courses">Lihat Program &rarr;</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="tm-service-item">
+          <img src="https://themewagon.github.io/scholar/assets/images/service-02.png" alt="Tentor Berpengalaman" />
+          <h4>Tentor Senior Berpengalaman</h4>
+          <p>Dibimbing oleh tentor senior minimal S-1 yang berpengalaman mengajar mata pelajaran ASPD dan TKA. Konsultasi belajar gratis kapan saja.</p>
+          <a href="#tm-team">Lihat Tentor &rarr;</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="tm-service-item">
+          <img src="https://themewagon.github.io/scholar/assets/images/service-03.png" alt="Kurikulum Merdeka" />
+          <h4>Kurikulum Merdeka & K13</h4>
+          <p>Melayani kebutuhan belajar Kurikulum Merdeka dan K13, serta mengembangkan tipe-tipe soal menuju sukses asesmen daerah (ASPD).</p>
+          <a href="#tm-courses">Info Lebih Lanjut &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="tm-about">
+  <div class="container">
+    <div class="row align-items-center g-5" class="section-inner-pad">
+      <div class="col-lg-6">
+        <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=560&h=420&fit=crop&auto=format" alt="Tentang LBB Cendekia" />
+      </div>
+      <div class="col-lg-6 tm-about-text">
+        <div class="tm-section-title-box" class="title-box-left">
+          <p>Tentang Kami</p>
+          <h2>Apa yang membuat <span>LBB Cendekia</span> berbeda?</h2>
+          <div class="tm-divider"></div>
+        </div>
+        <p>LBB Cendekia didirikan sejak 2016 dengan visi mendidik insan cerdas, berkarakter, dan bertaqwa. Kami menekankan penguasaan konsep dan cara praktis penyelesaian soal, dengan dua cabang di Kotagede dan Ketandan, Banguntapan, Yogyakarta.</p>
+        <div class="accordion" id="aboutAccordion">
+          <div class="accordion-item border mb-2">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#acc1">
+                Apa saja program yang tersedia?
+              </button>
+            </h2>
+            <div id="acc1" class="accordion-collapse collapse show" data-bs-parent="#aboutAccordion">
+              <div class="accordion-body">
+                LBB Cendekia menyediakan program bimbingan klasikal dan privat untuk jenjang SD, SMP, dan SMA. Tersedia juga program intensif persiapan ASPD dan TKA.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border mb-2">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc2">
+                Di mana lokasi LBB Cendekia?
+              </button>
+            </h2>
+            <div id="acc2" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+              <div class="accordion-body">
+                LBB Cendekia memiliki dua cabang: Cabang Kotagede di Jl. Ngeksigondo No. 23 (dekat SMP N 9 Yogyakarta), dan Cabang Ketandan di Jl. Ketandan, Banguntapan.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border mb-2">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc3">
+                Bagaimana cara mendaftar?
+              </button>
+            </h2>
+            <div id="acc3" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+              <div class="accordion-body">
+                Pendaftaran dapat dilakukan langsung ke cabang atau via WhatsApp. LBB Cendekia menerima siswa baru setiap saat sepanjang tahun.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item border">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc4">
+                Apakah ada fasilitas konsultasi belajar?
+              </button>
+            </h2>
+            <div id="acc4" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+              <div class="accordion-body">
+                Ya! Konsultasi belajar gratis kepada tentor tersedia kapan saja untuk membantu pemahaman materi siswa.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== COURSES ===================== -->
+<section id="tm-courses" class="tm-section-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="tm-section-title-box">
+          <p>Program Belajar</p>
+          <h2>Program <span>LBB Cendekia</span></h2>
+          <div class="tm-divider center"></div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mb-4">
+      <button class="tm-filter-btn active" data-filter="all">Semua</button>
+      <button class="tm-filter-btn" data-filter="sd">SD</button>
+      <button class="tm-filter-btn" data-filter="smp">SMP</button>
+      <button class="tm-filter-btn" data-filter="sma">SMA</button>
+      <button class="tm-filter-btn" data-filter="privat">Privat</button>
+    </div>
+    <div class="row g-4" id="coursesGrid">
+      <div class="col-sm-6 col-lg-4 course-item" data-cat="sd">
+        <div class="tm-course-item">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=170&fit=crop&auto=format" alt="Bimbel SD" />
+          <div class="tm-course-body">
+            <span class="tm-course-tag">SD</span>
+            <h5>Bimbingan Belajar SD – Persiapan ASPD</h5>
+            <div class="tm-course-meta">Matematika, B. Indonesia, IPA &nbsp;·&nbsp; Klasikal</div>
+            <div class="d-flex justify-content-between">
+              <span class="tm-course-teacher">Tentor Senior Cendekia</span>
+              <span class="tm-course-price">Hubungi Kami</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 course-item" data-cat="smp">
+        <div class="tm-course-item">
+          <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=170&fit=crop&auto=format" alt="Bimbel SMP" />
+          <div class="tm-course-body">
+            <span class="tm-course-tag eng">SMP</span>
+            <h5>Bimbingan Belajar SMP – Semua Mapel</h5>
+            <div class="tm-course-meta">MTK, Fisika, B. Inggris, B. Indonesia &nbsp;·&nbsp; Klasikal</div>
+            <div class="d-flex justify-content-between">
+              <span class="tm-course-teacher">Tentor Senior Cendekia</span>
+              <span class="tm-course-price">Hubungi Kami</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 course-item" data-cat="sma">
+        <div class="tm-course-item">
+          <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=170&fit=crop&auto=format" alt="Bimbel SMA" />
+          <div class="tm-course-body">
+            <span class="tm-course-tag sma">SMA</span>
+            <h5>Bimbingan Belajar SMA – Kelas 10, 11, 12</h5>
+            <div class="tm-course-meta">MTK, Fisika, Kimia, Biologi, B. Inggris &nbsp;·&nbsp; Privat Kelompok</div>
+            <div class="d-flex justify-content-between">
+              <span class="tm-course-teacher">Tentor Senior Cendekia</span>
+              <span class="tm-course-price">Hubungi Kami</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 course-item" data-cat="privat">
+        <div class="tm-course-item">
+          <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=170&fit=crop&auto=format" alt="Les Privat" />
+          <div class="tm-course-body">
+            <span class="tm-course-tag math">Privat</span>
+            <h5>Les Privat – SD, SMP & SMA</h5>
+            <div class="tm-course-meta">Semua Mapel &nbsp;·&nbsp; Di Rumah / Di Bimbel</div>
+            <div class="d-flex justify-content-between">
+              <span class="tm-course-teacher">Tentor Sesuai Kebutuhan</span>
+              <span class="tm-course-price">Hubungi Kami</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 course-item" data-cat="smp sma">
+        <div class="tm-course-item">
+          <img src="https://images.unsplash.com/photo-1532094349884-543559563661?w=400&h=170&fit=crop&auto=format" alt="Intensif ASPD" />
+          <div class="tm-course-body">
+            <span class="tm-course-tag sci">Intensif</span>
+            <h5>Program Intensif Persiapan ASPD & TKA</h5>
+            <div class="tm-course-meta">Literasi, Numerasi &nbsp;·&nbsp; Kurikulum Merdeka & K13</div>
+            <div class="d-flex justify-content-between">
+              <span class="tm-course-teacher">Tentor Senior Cendekia</span>
+              <span class="tm-course-price">Hubungi Kami</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 course-item" data-cat="sma">
+        <div class="tm-course-item">
+          <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=400&h=170&fit=crop&auto=format" alt="Privat Kelompok SMA 12" />
+          <div class="tm-course-body">
+            <span class="tm-course-tag sma">SMA 12</span>
+            <h5>Privat Kelompok Kelas 12 – 2 Semester</h5>
+            <div class="tm-course-meta">MTK, Fisika, Kimia, Biologi, B. Inggris &nbsp;·&nbsp; TA 2025–2026</div>
+            <div class="d-flex justify-content-between">
+              <span class="tm-course-teacher">Kak Afiina & Tim</span>
+              <span class="tm-course-price">Hubungi Kami</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== COUNTER ===================== -->
+<section id="tm-counter">
+  <div class="container">
+    <div class="row g-4 text-center">
+      <div class="col-6 col-md-3">
+        <div class="tm-counter-item">
+          <span class="tm-count" data-count="9">0</span>
+          <p>Tahun Berpengalaman</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="tm-counter-item">
+          <span class="tm-count" data-count="2">0</span>
+          <p>Cabang di Yogyakarta</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="tm-counter-item">
+          <span class="tm-count" data-count="100">0</span>
+          <p>Nilai ASPD Siswa Kami</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="tm-counter-item">
+          <span class="tm-count" data-count="3">0</span>
+          <p>Jenjang (SD, SMP, SMA)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TEAM ===================== -->
+<section id="tm-team" class="tm-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="tm-section-title-box">
+          <p>Tim Pengajar</p>
+          <h2>Tentor <span>LBB Cendekia</span></h2>
+          <div class="tm-divider center"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-sm-6 col-lg-3">
+        <div class="tm-team-item">
+          <img src="https://themewagon.github.io/scholar/assets/images/member-01.jpg" alt="Tentor Matematika" />
+          <div class="tm-team-body">
+            <span>Matematika</span>
+            <h5>Tentor Matematika</h5>
+            <div class="tm-social">
+              <a href="https://www.instagram.com/lbbcendekia/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/6281272139500" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="tm-team-item">
+          <img src="https://themewagon.github.io/scholar/assets/images/member-02.jpg" alt="Tentor IPA" />
+          <div class="tm-team-body">
+            <span>IPA / Sains</span>
+            <h5>Tentor IPA</h5>
+            <div class="tm-social">
+              <a href="https://www.instagram.com/lbbcendekia/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/6281272139500" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="tm-team-item">
+          <img src="https://themewagon.github.io/scholar/assets/images/member-03.jpg" alt="Tentor Bahasa" />
+          <div class="tm-team-body">
+            <span>Bahasa Indonesia & Inggris</span>
+            <h5>Tentor Bahasa</h5>
+            <div class="tm-social">
+              <a href="https://www.instagram.com/lbbcendekia/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/6281272139500" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <div class="tm-team-item">
+          <img src="https://themewagon.github.io/scholar/assets/images/member-04.jpg" alt="Tentor SMA" />
+          <div class="tm-team-body">
+            <span>Fisika & Kimia SMA</span>
+            <h5>Tentor SMA</h5>
+            <div class="tm-social">
+              <a href="https://www.instagram.com/lbbcendekia/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/6281272139500" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== VIDEO YOUTUBE ===================== -->
+<section id="tm-video">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="tm-section-title-box">
+          <p>Channel YouTube</p>
+          <h2>Video dari <span>LBB Cendekia</span></h2>
+          <div class="tm-divider center"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-4">
+      <!-- Video 1: Video promo resmi LBB Cendekia -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="tm-video-card">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/m7mZopwgfDE" title="BIMBEL TERBAIK DI JOGJA | LBB Cendekia" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="video-info">
+            <span class="video-tag">Profil</span>
+            <h6>Bimbel Terbaik di Jogja – LBB Cendekia</h6>
+          </div>
+        </div>
+      </div>
+      <!-- Video 2: Ganti ID video di bawah sesuai video LBB Cendekia lainnya -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="tm-video-card">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/videoseries?list=UU1r4QQoJrDKF8VmuB0mBoeg" title="Video LBB Cendekia" allowfullscreen loading="lazy"></iframe>
+          </div>
+          <div class="video-info">
+            <span class="video-tag">Pembelajaran</span>
+            <h6>Video Pembelajaran – Channel LBB Cendekia Official</h6>
+          </div>
+        </div>
+      </div>
+      <!-- Kolom Subscribe -->
+      <div class="col-sm-12 col-lg-4">
+        <div class="tm-video-subscribe">
+          <div class="yt-icon"><i class="fab fa-youtube"></i></div>
+          <h5>Subscribe Channel Kami!</h5>
+          <p>Tonton video pembelajaran, tips belajar, dan info terbaru dari LBB Cendekia langsung di YouTube.</p>
+          <a href="https://www.youtube.com/@lbbcendekia" target="_blank" class="tm-btn-yt">
+            <i class="fab fa-youtube"></i> &nbsp;Kunjungi Channel
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4" class="video-hint">
+      💡 <strong>Cara tambah video baru:</strong> Buka YouTube → klik kanan video → Bagikan → Sematkan → salin ID video (contoh: <code>m7mZopwgfDE</code>) → ganti di file <code>index.html</code>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section id="tm-testimonials">
+  <div class="container">
+    <div class="row align-items-center g-5" class="section-inner-pad">
+      <div class="col-lg-5">
+        <div class="tm-section-title-box" class="title-box-left">
+          <p>Testimoni</p>
+          <h2>Kata mereka tentang <span>LBB Cendekia</span></h2>
+          <div class="tm-divider"></div>
+        </div>
+        <p >Ratusan siswa LBB Cendekia telah membuktikan peningkatan nilai dan prestasi nyata sejak bergabung bersama kami.</p>
+      </div>
+      <div class="col-lg-7">
+        <div class="row g-3">
+          <div class="col-12">
+            <div class="tm-testimonial-item">
+              <p>"Aku mengalami peningkatan nilai setelah les di bimbel Cendekia. Dulu aku paling tidak bisa sains, lalu sekarang mendapat nilai 100 di ASPD dan bisa peringkat 1 di sekolah serta peringkat 3 di Kota Yogyakarta!"</p>
+              <div class="d-flex align-items-center">
+                <img src="https://themewagon.github.io/scholar/assets/images/testimonial-author.jpg" alt="Siswa Cendekia" />
+                <div>
+                  <div class="tm-testimonial-name">Siswa LBB Cendekia</div>
+                  <div class="tm-testimonial-role">Peraih Nilai 100 ASPD 2024 – Kota Yogyakarta</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="tm-testimonial-item">
+              <p>"Alhamdulillah nilai 100 pada mapel literasi numerasi ASPD 2024. Tentornya menyenangkan dan pemahaman yang diberikan mudah diingat!"</p>
+              <div class="d-flex align-items-center">
+                <img src="https://themewagon.github.io/scholar/assets/images/testimonial-author.jpg" alt="Siswa Cendekia" />
+                <div>
+                  <div class="tm-testimonial-name">Siswa LBB Cendekia</div>
+                  <div class="tm-testimonial-role">ASPD 2024</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="tm-testimonial-item">
+              <p>"Materi di sekolah dengan di sini sama, hanya lebih detail dan jelas mengajarkannya sehingga saya lebih memahami. Nilai saya berangsur membaik!"</p>
+              <div class="d-flex align-items-center">
+                <img src="https://themewagon.github.io/scholar/assets/images/testimonial-author.jpg" alt="Orang Tua Siswa" />
+                <div>
+                  <div class="tm-testimonial-name">Orang Tua Siswa</div>
+                  <div class="tm-testimonial-role">Wali Murid LBB Cendekia</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EVENTS ===================== -->
+<section id="tm-events" class="tm-section-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="tm-section-title-box">
+          <p>Jadwal & Kegiatan</p>
+          <h2>Program & <span>Pendaftaran</span></h2>
+          <div class="tm-divider center"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-8">
+        <div class="tm-event-item">
+          <img src="https://themewagon.github.io/scholar/assets/images/event-01.jpg" alt="Bimbel Klasikal" />
+          <div class="tm-event-info">
+            <div class="tm-event-tag">Klasikal</div>
+            <h5>Bimbingan Belajar Klasikal SD, SMP & SMA</h5>
+            <div class="tm-event-meta">
+              <span>Setiap Hari</span>
+              <span>Kotagede & Ketandan</span>
+              <span>Menerima Siswa Baru</span>
+            </div>
+          </div>
+          <a href="#tm-contact" class="tm-btn-event">Daftar</a>
+        </div>
+        <div class="tm-event-item">
+          <img src="https://themewagon.github.io/scholar/assets/images/event-02.jpg" alt="Les Privat" />
+          <div class="tm-event-info">
+            <div class="tm-event-tag">Privat</div>
+            <h5>Les Privat – Di Rumah atau Di Bimbel</h5>
+            <div class="tm-event-meta">
+              <span>Fleksibel</span>
+              <span>Semua Jenjang</span>
+              <span>Semua Mapel</span>
+            </div>
+          </div>
+          <a href="#tm-contact" class="tm-btn-event">Daftar</a>
+        </div>
+        <div class="tm-event-item">
+          <img src="https://themewagon.github.io/scholar/assets/images/event-03.jpg" alt="Intensif ASPD TKA" />
+          <div class="tm-event-info">
+            <div class="tm-event-tag">Program Intensif</div>
+            <h5>Intensif Persiapan ASPD & TKA 2025/2026</h5>
+            <div class="tm-event-meta">
+              <span>TA 2025–2026</span>
+              <span>Kurikulum Merdeka & K13</span>
+              <span>Terbatas</span>
+            </div>
+          </div>
+          <a href="#tm-contact" class="tm-btn-event">Daftar</a>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="tm-promo-box">
+          <div class="promo-label">Daftar Sekarang</div>
+          <div class="promo-num" class="promo-gratis-num">Gratis</div>
+          <div class="promo-off" class="promo-gratis-label">Konsultasi Belajar</div>
+          <p>Dapatkan konsultasi gratis dengan tentor kami kapan saja!</p>
+          <div class="promo-date">📞 0812-7213-9500</div>
+          <a href="https://wa.me/6281272139500" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="tm-contact" class="tm-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="tm-section-title-box">
+          <p>Hubungi Kami</p>
+          <h2>Kontak <span>LBB Cendekia</span></h2>
+          <div class="tm-divider center"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-5">
+      <div class="col-lg-5">
+        <div class="tm-contact-info">
+          <h5>Info LBB Cendekia</h5>
+          <p>Tim kami siap membantu kamu setiap saat. Menerima siswa baru sepanjang tahun!</p>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Cabang Kotagede: Jl. Ngeksigondo No. 23, Barat Gedung SMP N 9 Yogyakarta</li>
+            <li><i class="fas fa-map-marker-alt"></i> Cabang Ketandan: Jl. Ketandan, Banguntapan, Yogyakarta</li>
+            <li><i class="fab fa-whatsapp"></i> 0812-7213-9500 / 0823-2335-6415</li>
+            <li><i class="fas fa-envelope"></i> lbbcendekia@gmail.com</li>
+            <li><i class="fab fa-instagram"></i> @lbbcendekia</li>
+            <li><i class="fas fa-globe"></i> www.lbbcendekia.com</li>
+          </ul>
+          <div class="tm-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.1!2d110.4012!3d-7.8210!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5772dce24fcf%3A0x0!2sKotagede%2C%20Yogyakarta!5e0!3m2!1sid!2sid!4v1"
+              allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Lokasi LBB Cendekia">
+            </iframe>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <form id="tmContactForm" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label class="form-label" for="tmName">Nama Lengkap</label>
+              <input type="text" class="form-control" id="tmName" placeholder="Nama kamu" required />
+              <div class="invalid-feedback">Nama tidak boleh kosong.</div>
+            </div>
+            <div class="col-sm-6">
+              <label class="form-label" for="tmEmail">No. WhatsApp / Email</label>
+              <input type="text" class="form-control" id="tmEmail" placeholder="08xx / email@kamu.com" required />
+              <div class="invalid-feedback">Isi kolom ini.</div>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="tmSubject">Jenjang Pendidikan</label>
+              <select class="form-select" id="tmSubject" required>
+                <option value="">-- Pilih Jenjang --</option>
+                <option>SD</option>
+                <option>SMP</option>
+                <option>SMA</option>
+                <option>Info Program Privat</option>
+                <option>Lainnya</option>
+              </select>
+              <div class="invalid-feedback">Pilih jenjang terlebih dahulu.</div>
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="tmMsg">Pesan / Pertanyaan</label>
+              <textarea class="form-control" id="tmMsg" rows="5" placeholder="Tuliskan pesanmu di sini..." required></textarea>
+              <div class="invalid-feedback">Pesan tidak boleh kosong.</div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="tm-btn-submit">Kirim Pesan</button>
+              &nbsp;
+              <a href="https://wa.me/6281272139500" target="_blank" class="tm-btn-submit" class="tm-btn-submit btn-wa">
+                <i class="fab fa-whatsapp"></i> Chat WhatsApp
+              </a>
+            </div>
+            <div class="col-12">
+              <div id="tmFormOk" class="alert alert-success mt-1" class="alert-success-hidden">
+                ✅ Pesan berhasil dikirim! Kami akan membalas segera.
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer id="tm-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <h5>LBB Cendekia</h5>
+        <p>Lembaga Bimbingan Belajar Cendekia – mendidik insan cerdas, berkarakter, dan bertaqwa. Melayani SD, SMP, SMA secara klasikal & privat di Yogyakarta sejak 2016.</p>
+        <div class="tm-footer-social mt-3">
+          <a href="https://www.instagram.com/lbbcendekia/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.threads.com/@lbbcendekia" target="_blank"><i class="fab fa-threads"></i></a>
+          <a href="https://wa.me/6281272139500" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h5>Program</h5>
+        <ul class="tm-footer-links">
+          <li><a href="#tm-courses">Bimbel SD</a></li>
+          <li><a href="#tm-courses">Bimbel SMP</a></li>
+          <li><a href="#tm-courses">Bimbel SMA</a></li>
+          <li><a href="#tm-courses">Les Privat</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2">
+        <h5>Informasi</h5>
+        <ul class="tm-footer-links">
+          <li><a href="#tm-about">Tentang Kami</a></li>
+          <li><a href="#tm-team">Tim Tentor</a></li>
+          <li><a href="#tm-events">Jadwal</a></li>
+          <li><a href="#tm-contact">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h5>Lokasi Cabang</h5>
+        <p><i class="fas fa-map-marker-alt" class="icon-yellow"></i> <strong>Kotagede:</strong> Jl. Ngeksigondo No. 23, Yogyakarta</p>
+        <p class="addr-mt"><i class="fas fa-map-marker-alt" class="icon-yellow"></i> <strong>Ketandan:</strong> Jl. Ketandan, Banguntapan, Yogyakarta</p>
+        <p class="addr-mt2"><i class="fab fa-whatsapp" class="icon-wa"></i> 0812-7213-9500 | 0823-2335-6415</p>
+      </div>
+    </div>
+
+    <div class="tm-footer-bottom d-flex flex-wrap justify-content-between align-items-center">
+      <span>Copyright &copy; 2025 LBB Cendekia &nbsp;|&nbsp; <a href="https://lbbcendekia.com" target="_blank">lbbcendekia.com</a></span>
+      <span><a href="#">Privasi</a> &nbsp;&middot;&nbsp; <a href="#">Syarat &amp; Ketentuan</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="welcome.js"></script>
+<script>
+  const btt = document.getElementById('tm-back-top');
+  window.addEventListener('scroll', () => { btt.style.display = window.scrollY > 400 ? 'block' : 'none'; });
+
+  document.querySelectorAll('.tm-filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tm-filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      document.querySelectorAll('.course-item').forEach(item => {
+        item.style.display = (f === 'all' || item.dataset.cat.includes(f)) ? '' : 'none';
+      });
+    });
+  });
+
+  const cObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      e.target.querySelectorAll('.tm-count').forEach(el => {
+        if (el.dataset.done) return;
+        el.dataset.done = '1';
+        const target = +el.dataset.count, step = Math.max(target / 60, 1);
+        let cur = 0;
+        const t = setInterval(() => {
+          cur = Math.min(cur + step, target);
+          el.textContent = Math.floor(cur).toLocaleString('id-ID');
+          if (cur >= target) clearInterval(t);
+        }, 25);
+      });
+    });
+  }, { threshold: 0.4 });
+  const cSec = document.getElementById('tm-counter');
+  if (cSec) cObs.observe(cSec);
+
+  document.getElementById('tmContactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const name = document.getElementById('tmName');
+    const email = document.getElementById('tmEmail');
+    const subject = document.getElementById('tmSubject');
+    const msg = document.getElementById('tmMsg');
+    let ok = true;
+    [name, email, subject, msg].forEach(el => el.classList.remove('is-invalid'));
+    if (!name.value.trim()) { name.classList.add('is-invalid'); ok = false; }
+    if (!email.value.trim()) { email.classList.add('is-invalid'); ok = false; }
+    if (!subject.value) { subject.classList.add('is-invalid'); ok = false; }
+    if (!msg.value.trim()) { msg.classList.add('is-invalid'); ok = false; }
+    if (ok) {
+      const btn = this.querySelector('.tm-btn-submit');
+      btn.textContent = 'Mengirim...'; btn.disabled = true;
+      setTimeout(() => {
+        this.reset(); btn.textContent = 'Kirim Pesan'; btn.disabled = false;
+        const s = document.getElementById('tmFormOk');
+        s.style.display = 'block';
+        setTimeout(() => s.style.display = 'none', 4000);
+      }, 1000);
+    }
+  });
+</script>
+
+</body>
+</html>
