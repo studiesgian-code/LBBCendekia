@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Daftar – LBB Cendekia</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="daftar.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg tm-navbar sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">LBB<span>Cendekia</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#tmNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="tmNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html#tm-services">Layanan</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#tm-courses">Program</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#tm-team">Tentor</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#tm-events">Jadwal</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#tm-contact">Kontak</a></li>
+      </ul>
+      <a href="login.html" class="nav-cta-btn ms-2">Login</a>
+    </div>
+  </div>
+</nav>
+
+<!-- SPLIT LAYOUT -->
+<div class="login-wrapper">
+
+  <!-- KIRI: Langkah-langkah daftar -->
+  <div class="login-left">
+    <div class="brand">LBB<span>Cendekia</span></div>
+    <div class="tagline">Berdiri sejak 2016 · Yogyakarta</div>
+    <h2>Cara Daftar<br>LBB Cendekia</h2>
+    <p>Ikuti langkah berikut untuk bergabung bersama kami!</p>
+
+    <div class="step-item">
+      <div class="step-num">1</div>
+      <div class="step-text">
+        <strong>Buat Akun</strong>
+        <span>Isi form pendaftaran di sebelah kanan</span>
+      </div>
+    </div>
+    <div class="step-item">
+      <div class="step-num">2</div>
+      <div class="step-text">
+        <strong>Pilih Program</strong>
+        <span>Klasikal atau privat, SD / SMP / SMA</span>
+      </div>
+    </div>
+    <div class="step-item">
+      <div class="step-num">3</div>
+      <div class="step-text">
+        <strong>Konfirmasi via WhatsApp</strong>
+        <span>Hubungi admin untuk konfirmasi jadwal</span>
+      </div>
+    </div>
+    <div class="step-item">
+      <div class="step-num">4</div>
+      <div class="step-text">
+        <strong>Mulai Belajar!</strong>
+        <span>Langsung ikut kelas dan raih prestasi</span>
+      </div>
+    </div>
+
+    <div class="wa-box">
+      <p class="wa-box-text">
+        <i class="fab fa-whatsapp" class="icon-wa-green"></i> &nbsp;
+        Butuh bantuan? Chat kami di <strong class="highlight-yellow">0812-7213-9500</strong>
+      </p>
+    </div>
+  </div>
+
+  <!-- KANAN: Form Daftar -->
+  <div class="login-right">
+    <div>
+      <div class="login-card">
+        <div class="login-card-icon"><i class="fas fa-user-plus"></i></div>
+        <h4>Buat Akun Baru</h4>
+        <p class="sub">Daftar gratis dan mulai belajar hari ini</p>
+
+        <form id="registerForm">
+          <div class="mb-3">
+            <label class="form-label" for="username">Username</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-user"></i></span>
+              <input type="text" class="form-control" id="username" placeholder="Buat username" required />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="email">Email</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+              <input type="email" class="form-control" id="email" placeholder="email@kamu.com" required />
+            </div>
+          </div>
+          <div class="mb-4">
+            <label class="form-label" for="password">Password</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-lock"></i></span>
+              <input type="password" class="form-control" id="password" placeholder="Buat password (min. 6 karakter)" required />
+              <button class="input-group-text toggle-pass" type="button" id="togglePass">
+                <i class="fas fa-eye" id="eyeIcon"></i>
+              </button>
+            </div>
+            <div class="password-hint">Minimal 6 karakter</div>
+          </div>
+          <button type="submit" class="btn-login">
+            <span id="btnText">Daftar Sekarang</span>
+            <span id="btnSpinner" class="spinner-hidden"><i class="fas fa-spinner fa-spin"></i> Memproses...</span>
+          </button>
+          <div id="message" class="mt-3 text-center" class="mt-3 text-center msg-error"></div>
+        </form>
+
+        <div class="divider">sudah punya akun?</div>
+        <div class="login-footer">
+          <a href="login.html">Login di sini</a>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <a href="index.html" class="back-link">
+          <i class="fas fa-arrow-left"></i> Kembali ke Beranda
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="login-page-footer">
+  <div class="container">
+    Copyright &copy; 2025 LBB Cendekia &nbsp;|&nbsp; <a href="https://lbbcendekia.com" target="_blank">lbbcendekia.com</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.getElementById('togglePass').addEventListener('click', function () {
+    const p = document.getElementById('password');
+    const i = document.getElementById('eyeIcon');
+    if (p.type === 'password') { p.type = 'text'; i.classList.replace('fa-eye','fa-eye-slash'); }
+    else { p.type = 'password'; i.classList.replace('fa-eye-slash','fa-eye'); }
+  });
+  document.getElementById('registerForm').addEventListener('submit', function () {
+    document.getElementById('btnText').style.display = 'none';
+    document.getElementById('btnSpinner').style.display = 'inline';
+  });
+</script>
+<script src="register.js"></script>
+</body>
+</html>
